@@ -88,12 +88,14 @@ font-style: bold;}
 	padding: 80px;
 	overflow: hidden;
 }
+#button{background-color: grey;}
 	
    </style>
 
 </head>
-<body>
-	<div id="header-backgroung">
+<body>	
+
+	<div id="header-backgroung" class="w3-container w3-center w3-animate-bottom">
 		<img src="images/logoBig.png" id="image-logo" />
 		<p>we provide the best food at the <strong>right price</strong></p>
 
@@ -104,17 +106,37 @@ font-style: bold;}
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-3">
-				<div id="happy-hour">happy hour</div>
+				<div id="happy-hour">
+<div class="w3-container">
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-grey" id="button">happy hours</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>
+</div></div>
 				<div id="party-time">party time</div>
 			</div>
 			<div class="col-xs-3" id="breakfast">
-			breakfast
+			Breakfast
 			</div>
 			<div class="col-xs-3" id="lunch">
 			lunch
 			</div>
 			<div class="col-xs-3" id="dinner">
-			dinner
+			Dinner
 			</div>
 		</div>
 	</div>
