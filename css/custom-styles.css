@@ -1,6 +1,118 @@
-/*#header-backgroung{
+  
+  #header-backgroung{
 	background-image: url("images/backgrounds/landing.jpg");
-	height: 150px;
+	height: 500px;
 	width: 100%;
 
-}*/
+}
+#image-logo{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:90px;
+
+}
+#header-backgroung p{color:white;
+text-align: center;
+font-size: 25px;
+font-family: arial;
+font-style: bold;}
+#happy-hour{
+	background-color: grey;
+	color: black;
+	font-size: 30px;
+	height:80px;
+	padding-left:0px;
+	
+
+}
+#party-time{
+	background-image:url("images/backgrounds/landing.jpg");
+	color: white;
+	font-size: 30px;
+	height:80px;
+	overflow: hide;
+	padding-left:0px;
+
+}
+#breakfast{height:160px;
+	margin: 0px;
+	
+	background-image: url("images/foodtop/breakfast.jpg");
+	/*text-align: center;*/
+	color: white;
+	/*vertical-align: middle;*/
+	padding: 80px;
+
+
+}
+#lunch{height:160px;
+	margin: 0px;
+	
+	background-image: url("images/foodtop/lunch.jpg");
+	/*text-align: center;*/
+	color: white;
+	/*vertical-align: middle;*/
+	padding: 80px;
+}
+#dinner{height:160px;
+	margin: 0px;
+	
+	background-image: url("images/foodtop/dinner.jpg");
+	/*text-align: center;*/
+	color: white;
+	/*vertical-align: middle;*/
+	padding: 80px;
+	overflow: hidden;
+}
+#button{background-color: grey;}
+/*#fastfood-image{background-image: url("images/fastfood6.jpg");
+height:350px;
+width: 50%;
+display: block;}*/
+#backgroun-image{background-image: url("images/backgrounds/foodsBg.jpg");
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#fastfood-row{
+	margin :50px;
+	background-color: white;
+}
+.menu-images{padding:50px;}
+.menu-text p{text-align: center;
+padding:auto;
+padding-top: 20px;
+}
+.customer-images{padding: 15px;}
+.align-images-center{padding-left:120px; }
+
+.image-line{
+	position: absolute;
+  top: 2190px;
+  left: 850px;
+  transform: scale(1,12);
+  color: rgba(0,0,0,0.3); 
+
+}
+
+.background-image-footer{background-image: url("images/backgrounds/subscribe.jpg");}
+
+.email-title{color:white;
+			text-align: center;}
+.section-center{margin-left: 40%;}
+
+.backgroung-img {
+  background: #F15A29;
+}
+.footer-menu {
+  padding: 20px;
+
+}
+.Tocenter{margin-left: 47%;}
+
+
+
+
+
+	
