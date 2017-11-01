@@ -6,8 +6,8 @@
 #image-logo{
   display: block;
   margin-right: auto;
-  margin-left: auto;
-  padding-top:90px;
+    margin-left: auto;
+    padding-top:90px;
 
 }
 #header-backgroung p{color:white;
@@ -15,7 +15,7 @@ text-align: center;
 font-size: 25px;
 font-family: arial;
 font-style: bold;}
-#happy-hour{
+/*#happy-hour{
   background-color: grey;
   color: black;
   font-size: 30px;
@@ -32,7 +32,7 @@ font-style: bold;}
   overflow: hide;
   padding-left:0px;
 
-}
+}*/
 #breakfast{height:160px;
   margin: 0px;
   
@@ -115,3 +115,40 @@ padding-top: 20px;
   text-align: left;
   color: white;
 }
+.breakfast{background-image: url("../images/foodtop/breakfast.jpg");
+              height:170px;
+              text-align: center;
+              color: white;
+              padding-top: 30px;
+              font-size: 25px;}
+.lunch{background-image: url("../images/foodtop/lunch.jpg");
+        height:170px;
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 25px;}
+.dinner{background-image: url("../images/foodtop/dinner.jpg");
+        height: 170px;
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 25px;}
+.happy-color{
+  background-color: white;
+}
+.happy-hour{
+  background-color:grey;
+  height: 85px;
+  width:100%;
+}
+.party-time{
+  background-color:#F15A29;
+  height: 85px;
+  width: 100%;
+}
+#hour-party-float{
+  padding: 0px;
+}
+
+
+
