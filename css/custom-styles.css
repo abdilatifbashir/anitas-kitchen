@@ -120,19 +120,29 @@ padding-top: 20px;
               text-align: center;
               color: white;
               padding-top: 30px;
-              font-size: 25px;}
+              font-size: 25px;
+              }
+.breakfast:hover{
+  opacity: 0.5;
+}
 .lunch{background-image: url("../images/foodtop/lunch.jpg");
         height:170px;
         text-align: center;
         color: white;
         padding-top: 30px;
         font-size: 25px;}
+.lunch:hover{
+            opacity: 0.5;
+}
 .dinner{background-image: url("../images/foodtop/dinner.jpg");
         height: 170px;
         text-align: center;
         color: white;
         padding-top: 30px;
         font-size: 25px;}
+.dinner:hover{
+  opacity:0.5;
+}
 .happy-color{
   background-color: white;
 }
@@ -140,12 +150,27 @@ padding-top: 20px;
   background-color:grey;
   height: 85px;
   width:100%;
+  text-align: center;
+  color:white;
+  font-size: 16px;
+  font-style: bold;
+  padding-top: 35px;
+  color: black;
 }
+.happy-hour:hover{color:white;}
 .party-time{
   background-color:#F15A29;
   height: 85px;
   width: 100%;
+  text-align: center;
+  color:white;
+  font-size: 16px;
+  font-style: bold;
+  padding-top: 35px;
+  color: black;
+
 }
+.party-time:hover{color:white;}
 #hour-party-float{
   padding: 0px;
 }
