@@ -1,4 +1,4 @@
-#anitias kitchen
+## anitias kitchen
 
 
 
@@ -8,9 +8,8 @@ this si application i developed for kitchen ,by name anitas kitchen.i developed 
 
 * get a computer
 * have internet access with browser installed on your computer
-* 
 * open browser tab ang get to github,there you can download project files on my respository
-*
+
 link to my project
 
 https://github.com/abdilatifbashir/anitas-kitchen
