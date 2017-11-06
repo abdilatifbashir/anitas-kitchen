@@ -50,10 +50,10 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-3 col-md-3" id="hour-party-float">
-          <div class="happy-hour">
+          <div class="happy-hour" id="happy">
                <p>Happy hour</p>
           </div>
-          <div class="party-time">
+          <div class="party-time" id="party">
             <p>party time</p>
           </div>
         </div>
@@ -184,7 +184,7 @@ occaecat cupi datat non proident</p>
       	</div>
       </div>
 
-      <div class="footer background-image-footer">
+      <div class="footer background-image-footer" style="padding: 40px; background-attachment: fixed;">
       	<div class="email">
       		<h4 class="email-title">Get our daily food items delivered to your email</h4>
       		<form class="form-inline">
@@ -210,6 +210,42 @@ occaecat cupi datat non proident</p>
       	
       </div>
 
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Happy hour</h4>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Party Time</h4>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
       <script>
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
@@ -222,6 +258,28 @@ function closeNav() {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
  <script type="text/javascript">new WOW().init();</script>
+ <script
+   src="https://code.jquery.com/jquery-3.2.1.min.js"
+   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+   crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script>
+    $("#happy").hover(function () {
+       $('#modal1').modal({
+           show: true,
+           backdrop: false
+       })
+   });
+
+     $("#party").hover(function () {
+        $('#modal2').modal({
+            show: true,
+            backdrop: false
+        })
+    });
+  </script>
 	
 
 
