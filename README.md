@@ -8,7 +8,10 @@ this si application i developed for kitchen ,by name anitas kitchen.i developed 
 
 * get a computer
 * have internet access with browser installed on your computer
-* open browser tab ang get to github,there you can download project files on my respository
+* ensure git is installed on your machine
+* open browser tab ang get to github and copy my repository url
+* run git clone url of the repository
+
 
 link to my project
 
